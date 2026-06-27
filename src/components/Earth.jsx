@@ -110,10 +110,12 @@ export default function Earth({ onSelect, hovered, setHovered }) {
       {/* Core planet */}
       <mesh
         ref={earthRef}
-        onClick={(e) => {
-          e.stopPropagation()
-          onSelect()
-        }}
+       onClick={(e) => {
+  e.stopPropagation()
+
+  window.location.href =
+    "https://sites.google.com/view/diyax404/home"
+}} 
         onPointerOver={(e) => {
           e.stopPropagation()
           setHovered(true)
