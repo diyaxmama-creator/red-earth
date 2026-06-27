@@ -7,7 +7,7 @@ import Earth from './Earth.jsx'
 import Stars from './Stars.jsx'
 import Satellites from './Satellites.jsx'
 
-const EARTH_URL = 'https://sites.google.com/view/YOUR-GOOGLE-SITE'
+const EARTH_URL = 'https://sites.google.com/view/diyax404/home'
 
 function CameraIntro({ controlsRef }) {
   const introState = useRef({ t: 0, done: false })
